@@ -1,0 +1,19 @@
+/* Write your CSS code here */
+
+.ContactCotainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Image {
+  height: 80px;
+  width: 80px;
+}
+
+.Heading {
+  font-size: 40px;
+  color: #551e53;
+  font-weight: bold;
+  text-align: center;
+}

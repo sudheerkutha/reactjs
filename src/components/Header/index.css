@@ -1,0 +1,41 @@
+/* Write your CSS code here */
+.HeaderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Logo {
+  height: 50px;
+  width: 55px;
+  padding-right: 10px;
+}
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.LogoName {
+  font-size: 35px;
+  color: #551e53;
+  font-weight: bold;
+}
+
+.TabNames {
+  font-size: 30px;
+  color: #551e53;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.TabsContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  width: 80%;
+}
