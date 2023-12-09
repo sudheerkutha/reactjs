@@ -1,0 +1,31 @@
+.item-container {
+  padding: 3%;
+  width: 100%;
+  border: 2px solid #d3d3d3;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+.item-link {
+  text-decoration: none;
+}
+.item-image {
+  width: 100%;
+}
+.author-info {
+  display: flex;
+  align-items: center;
+}
+.item-topic,
+.author-name {
+  color: #8e8e8e;
+}
+.item-title {
+  color: #000;
+  font-weight: bold;
+}
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 36px;
+  margin-right: 8px;
+}
