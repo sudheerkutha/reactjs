@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+.list-item-container {
+  display: flex;
+  justify-content: space-between;
+}
+.currency-name-container {
+  display: flex;
+  align-items: center;
+}
+.currency-log {
+  height: 30px;
+  width: 30px;
+}
+.currency-name {
+  color: #ffffff;
+  margin-left: 20px;
+}
+.currency-value-container {
+  display: flex;
+}
+.usd-value {
+  color: #ffffff;
+  width: 80px;
+  margin-right: 45px;
+}
+.euro-value {
+  color: #ffffff;
+  margin-right: 30px;
+}
+@media screen and (max-width: 768px) {
+  .currency-log {
+    height: 25px;
+    width: 25px;
+  }
+  .currency-name {
+    margin-left: 10px;
+  }
+  .usd-value {
+    width: 80px;
+    margin-right: 10px;
+  }
+  .euro-value {
+    margin-right: 20px;
+  }
+}
