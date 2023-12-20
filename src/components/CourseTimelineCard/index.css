@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.course-timeline-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.course-title {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.course-duration-cont {
+  display: flex;
+}
+
+.clock {
+  margin-top: 25px;
+}
+
+.course-duration {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #1e293b;
+}
+
+.course-description {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  color: #1e293b;
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  background-color: steelblue;
+  border-radius: 5px;
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+}

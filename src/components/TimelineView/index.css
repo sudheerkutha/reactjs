@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sub-heading {
+  color: #2b237c;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.chrono-container {
+  height: 800px;
+  width: 100vw;
+}

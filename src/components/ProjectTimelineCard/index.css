@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.project-timeline-cont {
+  width: 550px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.project-image {
+  width: 550px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 22px;
+  padding: 5px;
+  color: #1e293b;
+}
+
+.duration-cont {
+  display: flex;
+}
+
+.calender {
+  margin-top: 25px;
+}
+
+.duration {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.project-description {
+  font-family: 'Roboto';
+  font-size: 19px;
+  font-weight: 400;
+}
